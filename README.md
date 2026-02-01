@@ -52,21 +52,53 @@ The content is organized into 5 progressive modules:
 * **Editor:** VS Code
 * **Extensions:** SQLTools / Azure Data Studio
 
-## 🚀 Getting Started
+## 🛠️ Tech Stack & Tools
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/your-username/SQL-Data-Engineering.git](https://github.com/your-username/SQL-Data-Engineering.git)
-    ```
-2.  **Navigate to the folder:**
-    Select the module you wish to study (e.g., `5-SQL-NESTED-QUERY`).
-3.  **Run the scripts:**
-    Execute the `.sql` files in your preferred Database Management System (DBMS).
+<div align="center">
 
-## 🤝 Contributing
-Contributions are welcome! If you have a more optimized query or a new challenge solution, feel free to open a **Pull Request**.
+![SQL](https://img.shields.io/badge/Language-SQL-00599C?style=for-the-badge&logo=postgresql&logoColor=white)
+![VS Code](https://img.shields.io/badge/Editor-VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Git](https://img.shields.io/badge/Version_Control-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Optional-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+</div>
 
 ---
-<p align="center">
-  <i>Crafted with ❤️ for Data</i>
-</p>
+
+## 🚀 Getting Started
+
+Follow these steps to set up your local environment.
+
+### 1️⃣ Clone the repository
+Open your terminal and run the following command to download the source code:
+
+```bash
+git clone [https://github.com/your-username/SQL-Data-Engineering.git](https://github.com/your-username/SQL-Data-Engineering.git)
+cd SQL-Data-Engineering
+```
+### 2️⃣ Navigate & Execute
+
+Since the repository is structured by topic, follow this simple workflow:
+
+* **📂 Step 1:** Open the folder corresponding to your learning module (e.g., `5-SQL-NESTED-QUERY`).
+* **▶️ Step 2:** Open any `.sql` file in **VS Code**.
+* **🚀 Step 3:** Execute the query using your preferred SQL Client or Extension.
+
+> [!TIP]
+> **Pro Tip:** If using the *SQLTools* extension, highlight the code block and press `Ctrl+E` to see results instantly.
+
+---
+
+## 🤝 Contributing Ecosystem
+
+We believe in the power of open source. If you have a **better optimization** or a **new challenge**, join us!
+
+```mermaid
+graph LR
+    A[🔱 Fork] --> B[💻 Branch]
+    B --> C[✨ Commit]
+    C --> D[🚀 Push]
+    D --> E[🔀 Pull Request]
+    style A fill:#252526,stroke:#fff,stroke-width:2px,color:#fff
+    style E fill:#007acc,stroke:#fff,stroke-width:2px,color:#fff
+```
